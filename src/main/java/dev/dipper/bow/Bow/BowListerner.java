@@ -34,11 +34,7 @@ public class BowListerner implements Listener{
             return;
         }
 
-        if (itemInMainHand == null 
-            && itemInMainHand.hasItemMeta() 
-            && itemInMainHand.getItemMeta().hasDisplayName()) {
-            return;
-        }
+        if (itemInMainHand == null && itemInMainHand.hasItemMeta() && itemInMainHand.getItemMeta().hasDisplayName()) { return; }
 
         String displayName = itemInMainHand.getItemMeta().getDisplayName();
 

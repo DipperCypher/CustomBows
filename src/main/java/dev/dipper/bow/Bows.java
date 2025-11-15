@@ -20,11 +20,9 @@ public class Bows extends JavaPlugin {
         Bow.registerBow(new ElectricBow());
         Bow.registerBow(new TeleportBow());
         Bow.registerBow(new ExplosionBow());
-        getLogger().info("Registered bow types.");
 
         getServer().getPluginManager().registerEvents(new BowListerner(this), this);
         getServer().getPluginManager().registerEvents(new MenuListener(), this);
-        getLogger().info("Registered listeners.");
 
         getCommand("bow").setExecutor(new bow());
     }

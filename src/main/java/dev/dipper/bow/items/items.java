@@ -43,8 +43,8 @@ public class items {
         ebowMeta.setDisplayName(ChatColor.AQUA + "Explosion Bow");
         List<String> ebowlore = new ArrayList<>();
         ebowlore.add("");
-        ebowlore.add("");
-        ebowlore.add("");
+        ebowlore.add(ChatColor.GRAY + "Create Explosion");
+        ebowlore.add(ChatColor.GRAY + "Arrow lands location");
         ebowlore.add("");
         ebowMeta.setLore(ebowlore);
         ebow.setItemMeta(ebowMeta);
