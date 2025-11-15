@@ -1,6 +1,6 @@
 # CustomBows
 
-## Add Mores bows to minecraeft
+### Add Mores bows to minecraeft
 
 # Types
 - ElectricBow, Strike Lightning, At arrow lands location
